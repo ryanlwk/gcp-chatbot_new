@@ -18,7 +18,7 @@ model = OpenAIChatModel(
 simple_agent = Agent(
     model=model,
     system_prompt=(
-        'Please answer everything in hong kong traditional chinese'
+        'Please answer everything in hong kong traditional  and english'
     ),
 )
 
